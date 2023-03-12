@@ -8,27 +8,37 @@ function Hero() {
           <p className="font-[400] inline-block tracking-widest text-[20px] xl:text-[30px] leading-[36px] m-0 mb-[4.4rem] xl:mb-[8.1rem]">
             Hi! 👋
           </p>
-          <p className="font-[500] box-border m-0 tracking-[.01em] leading-[3rem] xl:leading-[64px] text-[2rem] md:text-[3rem] xl:text-[4.2rem] lg:text-left ">
+          <div className="font-[500] box-border m-0 tracking-[.01em] leading-[3rem] xl:leading-[64px] text-[2rem] md:text-[3rem] xl:text-[4.2rem] lg:text-left ">
             <div
               className={
-                "xl:w-[14.4rem] w-[7rem] md:w-[9rem] h-[2rem] xl:h-[3.2rem] bg-[#E92577] rounded-[4px] xl:ml-[-1rem]  mb-[-3.6rem] md:mb-[-4rem] xl:mb-[-7.2rem] mt-[-2.8rem]"
+                "xl:w-[14.4rem] w-[7rem] md:w-[9rem] h-[2rem] xl:h-[3.2rem] bg-[#E92577] rounded-[4px] xl:ml-[-1rem] ml-[-.7rem] mb-[-5.6rem] md:mb-[-4rem] xl:mb-[-7.2rem] mt-[-2.8rem]"
               }
             ></div>
-            I’m Almila. I’m a full-stack developer. I can craft solid and
-            scalable frontend products. Let’s meet!
-          </p>
+            <p>
+              I'm Ömürcan, a junior developer with a focus on front-end and UI
+              development in React. I'm a strong problem solver and place a high
+              value on teamwork.
+            </p>
+          </div>
           <div className="xl:mb-[1.6rem] text-center sm:text-left mt-[2rem] xl:mt-[5.4rem]">
-            <img className="mr-8" src="./img/LinkedIn.png"></img>
-            <img src="./img/github.png"></img>
+            <a href="https://www.linkedin.com/in/omurcanuslu/" className="mr-8">
+              <img src="./img/LinkedIn.png"></img>
+            </a>
+            <a href="https://github.com/P4CKt">
+              <img src="./img/github.png"></img>
+            </a>
           </div>
           <div className="xl:my-[2.4rem] my-[1rem]">
             <p className="mr-8 leading-[32px] font-[400] tracking-wider pr-[1rem] lg:pr-[6.4rem] md:text-[14px] xl:text-[18px]">
               Currently <span className="text-[#AF0C48]">Freelancing</span> for
-              <span className="text-[#AF0C48]"> UX, UI, & Web Design </span>
-              Project . Invite me to join your team →
+              <span className="text-[#AF0C48]">
+                {" "}
+                UX, UI, & Web Design{" "}
+              </span>{" "}
+              Project .<br /> Invite me to join your team →
               <span className="text-[#AF0C48] underline underline-offset-4 ">
                 {" "}
-                pratamaiosi@gmail.com
+                omurcanuslu@outlook.com
               </span>
             </p>
           </div>

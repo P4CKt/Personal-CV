@@ -13,26 +13,22 @@ function Profile() {
               Basic Information
             </h2>
             <div className="flex text-left ">
-              <p className="font-[600]  flex-1 mt-0 my-[1.2rem] ">
-                Doğum tarihi
-              </p>
-              <p className=" mt-0 ml-[2rem] my-[1.2rem] flex-1 ">24.03.1996</p>
+              <p className="font-[600]  flex-1 mt-0 my-[1.2rem] ">Born</p>
+              <p className=" mt-0 ml-[2rem] my-[1.2rem] flex-1 ">04.08.1998</p>
             </div>
             <div className="flex text-left ">
-              <p className="font-[600]  my-[1.2rem]  flex-1 ">İkamet Şehri</p>
-              <p className="  ml-[2rem] my-[1.2rem] flex-1 ">Ankara</p>
+              <p className="font-[600]  my-[1.2rem]  flex-1 ">Address</p>
+              <p className="  ml-[2rem] my-[1.2rem] flex-1 ">Kocaeli-Darıca</p>
             </div>
             <div className="flex text-left ">
-              <p className="font-[600]  my-[1.2rem] flex-1 ">Eğitim Durumu</p>
+              <p className="font-[600]  my-[1.2rem] flex-1 ">Education</p>
               <p className=" my-[1.2rem] text-left ml-[2rem] flex-1 ">
-                Hacettepe Ünv. Biyoloji Lisans, 2016
+                Gebze Technical Unv. MSE, 2023
               </p>
             </div>
             <div className="flex text-left  mb-[2.5rem]">
-              <p className="font-[600] flex-1 my-[1.2rem] ">
-                Tercih Ettiği Rol
-              </p>
-              <p className="  my-[1.2rem] flex-1 ml-[2rem]">Frontend, UI6</p>
+              <p className="font-[600] flex-1 my-[1.2rem] ">Preferred Role</p>
+              <p className="  my-[1.2rem] flex-1 ml-[2rem]">Frontend, UI</p>
             </div>
           </div>
         </div>
@@ -47,12 +43,13 @@ function Profile() {
           ></div>
           <div className="md:mt-[4.2rem] mt-[3.2rem] ">
             <p className="font-[400] font-['Inter']   tracking-[.01em] ">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-              aut, odit laborum aliquam voluptatum nisi mollitia.
+              I'm passionate about finding creative solutions and also
+              prioritize results-driven work. I'm constantly learning and
+              striving to improve my skills and knowledge with new technologies.
             </p>
             <p className="font-[400] font-['Inter']  tracking-[.01em] ">
-              Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
-              deserunt quam temporibus cumque magnam!
+              I'm excited to work on new projects and make contributions to
+              them.
             </p>
           </div>
         </div>
