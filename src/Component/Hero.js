@@ -2,14 +2,19 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="flex  box-border h-[738px] bg-[#F4F4F4] pl-[17.6rem] font-['Inter'] ">
+    <div className="lg:flex-row flex-col flex  box-border bg-[#F4F4F4] lg:pl-[17.6rem] pl-[5rem] font-['Inter'] ">
       <div className=" w-[53%] mr-16 mt-[151px] text-left flex-col  box-border  ">
-        <p className="font-[400] tracking-widest text-[30px] leading-[36px] m-0 mb-[2.1rem]">
+        <p className="font-[400] inline-block tracking-widest text-[30px] leading-[36px] m-0 mb-[8.1rem]">
           Hi! 👋
         </p>
-        <p className="font-[500] box-border m-0 tracking-[.01em] leading-[64px] text-[42px] text-left ">
-          <span>I’m Almila.</span> I’m a full-stack developer. I can craft solid
-          and scalable frontend products. Let’s meet!
+        <p className="font-[500] box-border m-0 tracking-[.01em] leading-[64px] text-[3rem] lg:text-[4.2rem] text-left ">
+          <div
+            className={
+              "lg:w-[14.4rem] w-[5rem] h-[3.2rem] bg-[#E92577] rounded-[4px] ml-[-1rem] mb-[-7.2rem] mt-[-2.8rem]"
+            }
+          ></div>
+          I’m Almila. I’m a full-stack developer. I can craft solid and scalable
+          frontend products. Let’s meet!
         </p>
         <div className="mb-[1.6rem] mt-[54px]">
           <img className="mr-8" src="./img/LinkedIn.png"></img>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex font-['Inter'] justify-items-center">
+    <div className="flex font-['Inter'] justify-center">
       <div className="flex   ml-[24.1rem]">
         <h1 className=" my-0 font-[500] text-right text-[4.2rem] leading-normal tracking-[.01em] ">
           Let’s
