@@ -2,41 +2,42 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="lg:flex-row flex-col flex  box-border bg-[#F4F4F4] lg:pl-[17.6rem] pl-[5rem] font-['Inter'] ">
-      <div className=" w-[53%] mr-16 mt-[151px] text-left flex-col  box-border  ">
-        <p className="font-[400] inline-block tracking-widest text-[30px] leading-[36px] m-0 mb-[8.1rem]">
-          Hi! 👋
-        </p>
-        <p className="font-[500] box-border m-0 tracking-[.01em] leading-[64px] text-[3rem] lg:text-[4.2rem] text-left ">
-          <div
-            className={
-              "lg:w-[14.4rem] w-[5rem] h-[3.2rem] bg-[#E92577] rounded-[4px] ml-[-1rem] mb-[-7.2rem] mt-[-2.8rem]"
-            }
-          ></div>
-          I’m Almila. I’m a full-stack developer. I can craft solid and scalable
-          frontend products. Let’s meet!
-        </p>
-        <div className="mb-[1.6rem] mt-[54px]">
-          <img className="mr-8" src="./img/LinkedIn.png"></img>
-          <img src="./img/github.png"></img>
-        </div>
-        <div className="my-[2.4rem]">
-          <p className="mr-8 leading-[32px] font-[400] tracking-wider pr-[6.4rem] text-[18px]">
-            Currently <span className="text-[#AF0C48]">Freelancing</span> for
-            <span className="text-[#AF0C48]"> UX, UI, & Web Design </span>
-            Project . Invite me to join your team →
-            <span className="text-[#AF0C48] underline underline-offset-4 ">
-              {" "}
-              pratamaiosi@gmail.com
-            </span>
+    <div className="xl:flex-row flex-col-reverse flex  box-border bg-[#F4F4F4] xl:pl-[17.6rem] md:pl-[5rem]  justify-items-end pl-[0.5rem] font-['Inter'] ">
+      <div className=" xl:w-[53%] mr-[1rem] xl:mr-16 mt-[1rem] md:mt-[5rem] xl:mt-[15.1rem] text-left box-border  ">
+        <div className=" flex justify-center flex-col">
+          <p className="font-[400] inline-block tracking-widest text-[20px] xl:text-[30px] leading-[36px] m-0 mb-[4.4rem] xl:mb-[8.1rem]">
+            Hi! 👋
           </p>
+          <p className="font-[500] box-border m-0 tracking-[.01em] leading-[3rem] xl:leading-[64px] text-[2rem] md:text-[3rem] xl:text-[4.2rem] lg:text-left ">
+            <div
+              className={
+                "xl:w-[14.4rem] w-[7rem] md:w-[9rem] h-[2rem] xl:h-[3.2rem] bg-[#E92577] rounded-[4px] xl:ml-[-1rem]  mb-[-3.6rem] md:mb-[-4rem] xl:mb-[-7.2rem] mt-[-2.8rem]"
+              }
+            ></div>
+            I’m Almila. I’m a full-stack developer. I can craft solid and
+            scalable frontend products. Let’s meet!
+          </p>
+          <div className="xl:mb-[1.6rem] text-center sm:text-left mt-[2rem] xl:mt-[5.4rem]">
+            <img className="mr-8" src="./img/LinkedIn.png"></img>
+            <img src="./img/github.png"></img>
+          </div>
+          <div className="xl:my-[2.4rem] my-[1rem]">
+            <p className="mr-8 leading-[32px] font-[400] tracking-wider pr-[1rem] lg:pr-[6.4rem] md:text-[14px] xl:text-[18px]">
+              Currently <span className="text-[#AF0C48]">Freelancing</span> for
+              <span className="text-[#AF0C48]"> UX, UI, & Web Design </span>
+              Project . Invite me to join your team →
+              <span className="text-[#AF0C48] underline underline-offset-4 ">
+                {" "}
+                pratamaiosi@gmail.com
+              </span>
+            </p>
+          </div>
         </div>
       </div>
-      <div className=" w-[47%] mt-[0.8rem] flex items-center">
-        <div className="h-[350px] mb-[4rem] ml-[3.2rem]">
-          <div className="p-[172px]  relative w-0 rounded-[22px] bg-[#E92577]"></div>
+      <div className=" xl:w-[47%]  mt-[0.8rem] flex justify-center xl:justify-items-stretchs ">
+        <div className="md:mb-[1rem] ml-[0.8rem] xl:mb-[4rem] xl:items-center flex xl:ml-[3.2rem]">
           <img
-            className="w-[341px]  relative bottom-[323px] left-[20px] rounded-[22px] "
+            className="w-[60vw] max-w-[34rem] min-w-[26rem] mt-[3rem] shadow-[-20px_-18px_0px_rgba(233,37,119,1)] rounded-[22px] "
             src="./img/P4CK.png"
           ></img>
         </div>
