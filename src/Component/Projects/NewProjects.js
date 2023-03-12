@@ -18,38 +18,49 @@ function NewProjects() {
       mlink: "https://github.com/P4CKt",
       plink: "https://fsweb-s10-challenge-lime.vercel.app/",
     },
+    {
+      id: "01",
+      name: "Random Jokes",
+      description:
+        " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniamaut odit laborum aliquam voluptatum nisi mollitia.",
+      skills: ["react", "vercel", "axios", "router"],
+      mlink: "https://github.com/P4CKt",
+      plink: "https://github.com/P4CKt?tab=repositories",
+    },
   ];
   const colors = ["#EAC7C7", "#A0C3D2", "#F7F5EB", "#EAE0DA"];
-  let random = () => Math.floor(Math.random() * 4);
+  function random() {
+    Math.floor(Math.random() * 4);
+  }
   const bg = String(colors[random()]);
   console.log(bg);
   return (
     <div className="flex-wrap flex justify-center">
       {data.map((item) => (
-        <div key={item.id} className=" flex   ">
-          <div className="flex flex-col box-border mr-[3.2rem] w-[50rem]">
-            <div className={`pl-[4rem]  rounded-[12px] bg-[${bg}]`}>
-              <h1 className="font-['Playfair-Display']  mt-[4.6rem] text-[2.9rem] mb-0 leading-[3.9rem] font-[700] text-left">
+        <div key={item.id} className=" flex ">
+          <div className="flex flex-col box-border  sm:mx-[3.2rem] w-[36rem]  sm:w-[50rem] ">
+            <div className={`pl-[4rem]  rounded-[12px] bg-[#A0C3D2]`}>
+              <h1 className="font-['Playfair-Display']  pt-[4.6rem] text-[2.9rem] pb-0 leading-[3.9rem] my-0 font-[700] text-left">
                 {item.name}
               </h1>
               <div>
-                <p className="mr-[9.2rem] text-left mt-[1.9rem] text-[1.6rem] font-[400]">
+                <p className="pr-[9.2rem] text-left pt-[1.9rem] text-[1rem] sm:text-[1.6rem] font-[400]">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Veniam aut, odit laborum aliquam voluptatum nisi mollitia.
                 </p>
               </div>
-              <div className="flex-wrap pb-[3.5rem]	flex text-[1.6rem] pr-[19rem] font-['Playfair-Display'] font-[700] ">
+              <div className="flex-wrap pb-[3.5rem]	flex text-[1rem]  sm:text-[1.6rem] pr-[19rem] font-['Playfair-Display'] font-[700] ">
                 {item.skills.map((items) => (
                   <p
                     key={items}
-                    className="bg-white  mt-[1rem] mb-0 mr-[1rem] rounded-[76px] p-[6px_20px_10px] "
+                    className="bg-white pt-[1rem] mx-[.45rem] mb-0 pr-[1rem] rounded-[76px] pl-[1rem] pb-[1rem] sm:p-[6px_20px_10px] "
                   >
                     {items}
                   </p>
                 ))}
               </div>
 
-              <div className="flex font-['Inter'] pb-[32.6rem] font-[600] text-[2rem]">
+              <div className="flex font-['Inter'] pb-[20rem] sm:pb-[32.6rem] font-[600] sm:text-[2rem] text-[1.6rem]">
                 <a
                   href={item.mlink}
                   className=" flex-1 no-underline text-black text-left"
@@ -64,11 +75,11 @@ function NewProjects() {
                 </a>
               </div>
             </div>
-            <div className="justify-center  relative bottom-[243px] flex">
+            <div className="justify-center sm:mt-[-245px]  mt-[-180px]  mb-[50px] flex">
               <img
                 alt="mockup"
-                className="w-[40rem] rounded-xl"
-                src="./img/mockup-gunluk.jpeg"
+                className="rounded-xl w-[36rem]  sm:w-[50rem]"
+                src="./img/first-projects.png"
               ></img>
             </div>
           </div>

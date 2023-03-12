@@ -11,8 +11,9 @@ function App() {
       <Hero />
       <Skills />
       <Profile />
-      {/* <Projects />
-      <Footer /> */}
+      <Projects />
+
+      <Footer />
     </div>
   );
 }
