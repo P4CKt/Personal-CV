@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 function NewProjects() {
   const data = [
     {
@@ -33,21 +31,21 @@ function NewProjects() {
       pnglink: "./img/minnet-g.png",
     },
   ];
-  const colors = ["#EAC7C7", "#A0C3D2", "#F7F5EB", "#EAE0DA"];
-  useEffect(
-    () =>
-      function random() {
-        return colors[Math.floor(Math.random() * 4)];
-      },
-    [random]
-  );
+  // const colors = ["#EAC7C7", "#A0C3D2", "#F7F5EB", "#EAE0DA"];
+  // useEffect(
+  //   () =>
+  //     function random() {
+  //       return colors[Math.floor(Math.random() * 4)];
+  //     },
+  //   [random]
+  // );
 
   return (
     <div className="flex-wrap flex justify-center">
       {data.map((item) => (
         <div key={item.id} className=" flex ">
           <div className="flex flex-col box-border  sm:mx-[3.2rem] w-[36rem]  sm:w-[50rem] ">
-            <div className={`pl-[4rem]  rounded-[12px] bg-[${random()}]`}>
+            <div className={`pl-[4rem]  rounded-[12px] bg-[#A0C3D2]`}>
               <h1 className="font-['Playfair-Display']  pt-[4.6rem] text-[2.9rem] pb-0 leading-[3.9rem] my-0 font-[700] text-left">
                 {item.name}
               </h1>
@@ -58,8 +56,6 @@ function NewProjects() {
                   }px] font-[400]`}
                 >
                   {item.description}
-
-                  {String(bg)}
                 </p>
               </div>
               <div className="flex-wrap pb-[3.5rem]	flex text-[1rem]  sm:text-[1.6rem] pr-[19rem] font-['Playfair-Display'] font-[700] ">

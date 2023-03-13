@@ -2,8 +2,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="xl:flex-row flex-col-reverse flex  box-border bg-[#F4F4F4] xl:pl-[17.6rem] md:pl-[5rem]  justify-items-end pl-[0.5rem] font-['Inter'] ">
-      <div className=" xl:w-[53%] mr-[1rem] xl:mr-16 mt-[1rem] md:mt-[5rem] xl:mt-[15.1rem] text-left box-border  ">
+    <div className="xl:flex-row flex-col-reverse pt-[5rem] flex box-border bg-[#F4F4F4] xl:pl-[17.6rem] md:pl-[5rem]  justify-items-end pl-[0.5rem] font-['Inter'] ">
+      <div className=" xl:w-[53%] mr-[1rem] xl:mr-16 mt-[1rem] md:mt-[5rem] xl:mt-[10.1rem] text-left box-border  ">
         <div className=" flex justify-center flex-col">
           <p className="font-[400] inline-block tracking-widest text-[20px] xl:text-[30px] leading-[36px] m-0 mb-[4.4rem] xl:mb-[8.1rem]">
             Hi! 👋
