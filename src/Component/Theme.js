@@ -55,9 +55,9 @@ function Theme() {
   }));
 
   return (
-    <div className="h-[50px] w-[100%] text-right fixed mb-[50px] bg-[#F4F4F4]">
+    <div className="h-[36px] w-[100%] text-right fixed mb-[50px] dark:text-yellow-300 dark:bg-[#121212] bg-[#F4F4F4]">
       <FormControlLabel
-        control={<MaterialUISwitch sx={{ m: 1 }} checked={!toggle} />}
+        control={<MaterialUISwitch sx={{ m: 0.1 }} checked={toggle} />}
         label="Dark & Light"
         onClick={handleClick}
       />

@@ -2,12 +2,12 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className=" mt-[1rem] sm:mt-[4rem] lg:mt-32 mx-[2rem] md:mx-[5rem] xl:mx-[25.92rem] mb-[5rem] xl:mb-[12.96rem] ">
+    <div className=" pt-[1rem] sm:pt-[4rem] lg:pt-32 dark:bg-[#12121249] px-[2rem] md:px-[5rem] xl:px-[20.18rem] pb-[5rem] xl:pb-[12.96rem] ">
       <div>
-        <h1 className="font-[500] font-['Inter'] text-[#0A0A14] mt-0 mb-[2rem] md:mb-[5.6rem] text-[2.4rem] xl:text-[36px] tracking-[.01em] ">
+        <h1 className="font-[500] font-['Inter'] text-[#0A0A14] mt-0 mb-[2rem] md:mb-[5.6rem] text-[2.4rem] xl:text-[48px] tracking-[.01em] ">
           Skills
         </h1>
-        <div className="flex text-[10px] flex-wrap md:text-[20px] rounded-[6px] justify-center text-[#777777] font-[500] font-['Inter'] ">
+        <div className="flex text-[10px] flex-wrap md:text-[20px] rounded-[6px] justify-center dark:text-black text-[#777777] font-[500] font-['Inter'] ">
           <div className=" mx-[1.75rem] mb-[1rem]">
             <img
               className="w-[9rem]  md:w-[12rem]"

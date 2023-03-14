@@ -20,16 +20,6 @@ function NewProjects() {
       plink: "https://fsweb-s10-challenge-lime.vercel.app/",
       pnglink: "./img/minnet-g.png",
     },
-    {
-      id: "03",
-      name: "Random Jokes",
-      description:
-        " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniamaut odit laborum aliquam voluptatum nisi mollitia.",
-      skills: ["react", "vercel", "axios", "router"],
-      mlink: "https://github.com/P4CKt",
-      plink: "https://fsweb-s10-challenge-lime.vercel.app/",
-      pnglink: "./img/minnet-g.png",
-    },
   ];
   // const colors = ["#EAC7C7", "#A0C3D2", "#F7F5EB", "#EAE0DA"];
   // useEffect(
@@ -51,13 +41,12 @@ function NewProjects() {
               </h1>
               <div>
                 <p
-                  className={`pr-[9.2rem] text-left pt-[1.9rem] text-[${
-                    item.description.length > 200 ? 8 : 18
-                  }px] font-[400]`}
+                  className={`pr-[9.2rem] h-[120px] overflow-y-auto scrollbar-thumb-blue hover:overflow-y-scroll text-left pt-[1.9rem] text-[20px] font-[400]`}
                 >
                   {item.description}
                 </p>
               </div>
+
               <div className="flex-wrap pb-[3.5rem]	flex text-[1rem]  sm:text-[1.6rem] pr-[19rem] font-['Playfair-Display'] font-[700] ">
                 {item.skills.map((items) => (
                   <p

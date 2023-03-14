@@ -2,14 +2,14 @@ import React from "react";
 
 function Profile() {
   return (
-    <div className="bg-[#F4F4F4] font-['Inter'] pt-4 sm:pt-6 xl:pt-12">
+    <div className="bg-[#F4F4F4] dark:bg-[#12121280] font-['Inter'] pt-4 sm:pt-6 xl:pt-12">
       <h1 className="font-[500] font-['Inter'] text-[2.4rem] xl:text-[36px] tracking-[.01em] leading-[2.2rem] xl:leading-[44px]">
         Profile
       </h1>
-      <div className="flex flex-col items-center md:flex-row ">
-        <div className=" xl:w-[52%] rounded-[12px] w-[80%] mx-[1rem] max-h-[49.9rem] lg:ml-[19.2rem] mb-[2rem] md:mb-[6.4rem] bg-[#FFFFFF] md:shadow-[9px_9px_0px_rgba(82,82,82,0.5)] ">
+      <div className="flex flex-col items-center md:items-start md:flex-row ">
+        <div className=" xl:w-[52%] rounded-[12px] w-[80%] mx-[1rem] max-h-[49.9rem] max-w-[80rem] lg:ml-[19.2rem] mb-[2rem] md:mb-[6.4rem] dark:bg-[#1212120a] bg-[#FFFFFF] md:shadow-[9px_9px_0px_rgba(82,82,82,0.5)] dark:md:shadow-[9px_9px_0px_rgba(82,82,82,0.2)] ">
           <div className=" font-[400] text-[1rem] sm:text-[1.3rem] xl:text-[18px] mr-36  ml-16">
-            <h2 className="font-['Playfair-Display'] mt-[3.6rem] mb-[3.2rem] text-[1.8rem] xl:text-[2.4rem] font-[400] tracking-[.01em] text-left  leading-[1.6rem]  xl:leading-[32px] text-[#EA2678]">
+            <h2 className="font-['Playfair-Display'] mt-[3.6rem] mb-[3.2rem] text-[1.8rem] xl:text-[2.4rem] font-[400] tracking-[.01em] text-left  leading-[1.6rem]  xl:leading-[32px] dark:text-[#ea2678a3] text-[#EA2678]">
               Basic Information
             </h2>
             <div className="flex text-left ">
@@ -38,7 +38,7 @@ function Profile() {
           </h2>
           <div
             className={
-              "xl:w-[14.4rem] w-[7rem] md:w-[9rem] h-[2rem] xl:h-[3.2rem] bg-[#82BBFF] rounded-[4px] ml-[-1rem]  mb-[-2.6rem]  mt-[-3.4rem]"
+              "xl:w-[14.4rem] w-[7rem] md:w-[9rem] h-[2rem] xl:h-[3.2rem] dark:bg-[#82baff92] bg-[#82BBFF] rounded-[4px] ml-[-1rem]  mb-[-2.6rem]  mt-[-3.4rem]"
             }
           ></div>
           <div className="md:mt-[4.2rem] mt-[3.2rem] ">
